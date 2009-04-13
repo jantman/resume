@@ -17,6 +17,11 @@ echo "/* ADDED BY dosed.sh script : */" >> resume.css
 echo "div.tabular, div.center div.tabular {text-align: left; margin-top:0.5em; margin-bottom:0.5em; }" >> resume.css
 echo "table.tabular {margin-left: 2em; margin-top: 1em;}" >> resume.css
 echo ".description dt {margin-top: .8em;}" >> resume.css
+echo ".leftdiv{ float: left; margin-left: 2em; text-align: left;}" >> resume.css
+echo ".rightdiv{ float: right; margin-right: 2em; text-align: right;}" >> resume.css
+echo ".clearing{ clear: both;}" >> resume.css
+
+
 
 # BIG WORK - put the parts of the html before and after the name/contact info table in their own files
 PART1=`grep -n "<div" resume.html | head -1 | awk -F: '{ print $1 }'`
@@ -30,9 +35,9 @@ tail "-$PART2" resume.html > resume.html.2
 
 # put it all together
 cat /dev/null > resume.html
-cat resume.html.1 > resume.html
-cat resume-static-head.html > resume.html
-cat resume.html.2 > resume.html
+cat resume.html.1 >> resume.html
+cat resume-static-head.html >> resume.html
+cat resume.html.2 >> resume.html
 
 rm resume.html.1
 rm resume.html.2

@@ -8,17 +8,17 @@ pdf:
 	ps2pdf resume.ps resume.pdf
 
 html:
-	latex2html -strict -nonavigation -split 0 -title "Jason Antman&#39;s Resume" -html_version 4.0 -nosubdir -iso_language EN.US resume.tex
-	./dosed.sh
+	htlatex resume.tex "xhtml"
+	./dohtml.sh
 
-all: pdf text html
+all: pdf html text
 
 clean:
-	-rm -f *.aux *.log *.ps *.pdf *.dvi *~ resume.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak
+	-rm -f *.aux *.log *.ps *.pdf *.dvi *~ resume.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak *.txt
 	-rm -f labels.pl
 
 spell:
 	aspell --mode=tex --dont-tex-check-comments check resume.tex
 
 text:
-	catdvi resume.dvi
+	lynx -dump -nolist resume.html

@@ -9,11 +9,12 @@ pdf:
 
 html:
 	latex2html -strict -nonavigation -split 0 -title "Jason Antman&#39;s Resume" -html_version 4.0 -nosubdir -iso_language EN.US resume.tex
+	./dosed.sh
 
 all: pdf text html
 
 clean:
-	-rm -f *.aux *.log *.ps *.pdf *.dvi *~ *.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak
+	-rm -f *.aux *.log *.ps *.pdf *.dvi *~ resume.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak
 	-rm -f labels.pl
 
 spell:

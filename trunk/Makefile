@@ -15,7 +15,7 @@ all: pdf html text
 	mkdir dist
 	mv resume.html dist/
 	mv resume.css dist/
-	mv resume.tex dist/
+	cp resume.tex dist/
 	mv resume.txt dist/
 	mv resume.pdf dist/
 
@@ -28,4 +28,5 @@ spell:
 	aspell --mode=tex --dont-tex-check-comments check resume.tex
 
 text:
-	lynx -dump -nolist resume.html
+	lynx -dump -nolist resume.html > resume.txt
+

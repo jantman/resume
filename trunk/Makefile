@@ -11,13 +11,15 @@ html:
 	htlatex resume.tex "xhtml"
 	./dohtml.sh
 
-all: pdf html text
+all: pdf html text dist
+
+dist:
 	mkdir dist
 	mv resume.html dist/
 	mv resume.css dist/
-	cp resume.tex dist/
-	mv resume.txt dist/
-	mv resume.pdf dist/
+	cp resume.tex dist/JasonAntman.tex
+	mv resume.txt dist/JasonAntman.txt
+	mv resume.pdf dist/JasonAntman.pdf
 
 clean:
 	-rm -f *.aux *.log *.ps *.pdf *.dvi *~ resume.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak *.txt

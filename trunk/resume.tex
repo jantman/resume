@@ -64,15 +64,14 @@ Midland Park, NJ 07432& http://resume.jasonantman.com\\
 \resheading{Work Experience}
 \begin{itemize}
 \item
-	\ressubheading{Rutgers University - Central Systems \& Services}{Piscataway, NJ}{Student Systems Programmer}{September 2007 - Present}
+	\ressubheading{Rutgers University - Central Systems \& Services}{Piscataway, NJ}{Systems Programmer}{September 2007 - Present}
 	\begin{itemize}
                 \resitem{Systems Administration and development including
                   installation, configuration and troubleshooting of
                   service-critical Linux-based servers and embedded systems.}
-                \resitem{Designed, implemented and administered a department-wide system
+                \resitem{Design, implementation and administration of department-wide system
                   installation, configuration and backup system based on
-                  KickStart, Puppet automation and Bacula, for
-                  service-critical servers.}
+                  KickStart, Puppet automation and Bacula.}
                 \resitem{Responsible for maintenance and management of
                   Linux-based production server hardware and associated data center space.}
                 \resitem{Assisted in troubleshooting and ongoing support of
@@ -82,10 +81,12 @@ Midland Park, NJ 07432& http://resume.jasonantman.com\\
                   labs across five campuses (approximately 900 user stations,
                   mix of Mac and Windows).}
                 \resitem{Directly assisted Telecommunications Analyst with
-                  installation of over 700 wireless access
+                  installation of wireless access
                   points across five campuses, as well as related planning and
                   support.}
-
+                \resitem{Responsible for maintenance and upgrades to LFS-based
+                  Soekris tunneling bridges supporting University-wide RUwired
+                  service.}
 	\end{itemize}
 
 \item
@@ -108,6 +109,8 @@ Midland Park, NJ 07432& http://resume.jasonantman.com\\
                \resitem{Developed and implemented Intranet-based shipment tracking and
                  inventory control system for an ISO 9001-certified courier
                  and freight carrier.}
+               \resitem{As needed consulting and support for the Borough of
+                 Midland Park and related agencies.}
         \end{itemize}
 
 \item
@@ -124,39 +127,26 @@ Midland Park, NJ 07432& http://resume.jasonantman.com\\
 \resheading{Volunteer Experience}
 \begin{itemize}
 \item
-        \ressubheading{Midland Park Ambulance Corps}{Midland Park, NJ}{ }{December 2004 - Present}
+        \ressubheading{Midland Park Ambulance Corps}{Midland Park, NJ}{}{January 2006 - Present}
         \begin{itemize}
                 \resitem{Sole person responsible for administration and engineering of
                   mission-critical internal network, applications and
                   Internet-accessible resources supporting 911 Emergency
-                  Medical response as a local, county and state resource
-                  (since 2006).}
+                  Medical response as a local, county and state resource.}
                 \resitem{Responsible for design, development and ongoing support (production
-                  status since January 2006) of a custom application to collect and store patient care records.}
+                  status since January 2006) of a custom application to
+                  collect and store patient care records (currently in second version).}
                 \resitem{Responsible for development, support and ongoing
                   improvements to PHP EMS Tools, a web-based application for
                   scheduling, roster and certification tracking and day-to-day
                 administrative tasks for volunteer emergency services
                 organizations. In production at Midland Park Ambulance Corps
                 since January 2007. (See below, ``Projects''.)}
-                \resitem{Developed ieilogd, a Unix daemon to log evens from
-                  IEI physical access control systems and correlate logs with
-                  a membership/users database. Production status since March
-                  2008 and released under GNU GPL.}
-                \resitem{Responsible for programming, maintenance and upkeep
-                  of all radio communications equipment.}
-                \resitem{Computer Committee member since 2006, Chairman since
-                  January 2008. By-Laws Committee chairman since 2008.}
-                \resitem{Served as EMT and crew chief for numerous major
-                  incidents. NJ State Certified EMT since June, 2005.}
-        \end{itemize}
-
-\item
-        \ressubheading{Boro Of Midland Park}{Midland Park, NJ}{}{November 2008 - Present}
-        \begin{itemize}
-                \resitem{Volunteer IT consultant to the Midland Park Town
-                  Council on an as-needed basis, providing input on technical
-                  and IT contract issues.}
+%                \resitem{Responsible for programming, maintenance and upkeep
+%                  of all radio communications equipment.}
+                \resitem{Served in numerous capacities including Crew Chief,
+                  By-Laws Committee Chairman, Computer Committee Chairman,
+                  Treasurer and First Lieutenant (second-in-command).}
         \end{itemize}
 \end{itemize}
 
@@ -169,17 +159,19 @@ Assembly, PCL.
 \item[Operating Systems:]
 8 years experience in use and administration of Linux (various
 distributions). 4 years experience administering production Linux servers, 3
-years administering mission-critical public safety servers. Some experience in
-embedded Linux development. Majority of experience with SuSE/OpenSuSE and
-CentOS/RedHat.
-Sun-trained in Solaris 9/10/11.
+years administering mission-critical public safety servers. Majority of experience with SuSE/OpenSuSE and
+CentOS/RedHat, some Debian. Sun-trained in Solaris 9/10/11. Vyatta router OS,
+Cisco CATOS and IOS.
 \item[Software:]
 Puppet, Apache HTTPD, MySQL, Postfix, Procmail, ISC DHCPD, Nagios, OpenSSH,
-Bacula,
+Bacula, FreeRADIUS
 Syslog, Syslog-ng, Rsyslog, CVS, Subversion, MediaWiki, Eventum, WordPress,
 Asterisk, BIND 9 (ISC), OpenLDAP. IPtables and Vyatta firewall/router
 platform. Some experience administering Xen virtualization, SpamAssassin,
 Dovecot, Cyrus SASL, Munin, Cacti/RRDtool,  CUPS.
+
+%\item[Network Protocols:]
+%HTTP(S), LDAP, RADIUS, DHCP, SSH, DNS, IMAP(S), SMTP(S), SNMP, NFS, TFTP, IAX2.
 
 \item[Hardware:]
 HP Proliant, Sun and Dell x86/x86-64 servers, HP iLO, Sun iLOM. Linux- and
@@ -188,34 +180,26 @@ wireless access points. Cisco network hardware. Linksys, 3COM, HP ProCurve
 switches. Avocent/Cyclades ACS console servers.
 \end{description}
 
-\pagebreak
+%%%\pagebreak
 
 \resheading{Projects}
 
 \begin{description}
-\item[In Progress] RackMan, a web-based tool to track locations of hardware
-  within server racks, automatically discover and track connections between
-  devices, and allow simulations of various equipment placement
-  schemes. Currently being developed as an integrated interface with Nathan
-  Hubbard's MachDB hardware inventory system (introduced at LISA '08) and a
-  BIND/DHCP administration tool.
-\item[In Progress] MultiBINDadmin, a web-based tool for maintaining BIND9 DNS
+\item[In Progress:] RackMan, a web-based tool to track locations of hardware
+  within server racks and allow simulations of various equipment placement
+  schemes.
+\item MultiBINDadmin, a web-based tool for maintaining BIND9 DNS
   zone files. Specifically designed for use in environments with split-horizon
   DNS and NAT (private address space used internally), the package records
   both internal and external IPs for hosts and generates the appropriate zone
   files. Also includes ability to push configuration updates to DNS servers.
-\item[2007--Present] PHP EMS Tools (www.php-ems-tools.com) - a scheduling and
+\item[2007--Present:] PHP EMS Tools (www.php-ems-tools.com) - a scheduling and
   administrative tool for emergency services agencies, coded in PHP with a MySQL
   backend. Also includes LDAP integration and a Asterisk-based system to accept
   real-time confirmation phone calls from first responders enroute to
   emergencies. GPL-licensed Free/Open Source with over 1,000 downloads.
-\item Various smaller projects including PHP-based SNMP printer management,
-  PHP/CUPS print accounting with a web-based interface, Nagios status XML
-  generator and parser, Eventum/Nagios integration and various log/performance
-  visualization tools.
-\item TuxoStat, a proof-of-concept Linux-based home thermostat with full
-  heating/cooling control, multi-zone temperature sensors, infinitely
-  fine-grained scheduling and web/CLI interfaces.
+\item See also: http://www.jasonantman.com and http://blog.jasonantman.com
+
 \end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -225,8 +209,6 @@ switches. Avocent/Cyclades ACS console servers.
                   interest group).
                 \item Member, League of Professional System Administrators
                   (LOPSA), New Jersey chapter.
-                \item Rutgers University Student Linux Users' Group
-                  (RUSLUG). Member 2006-2009, President 2008-2009.
                 \item 2005 recipient of the Raoul Wallenberg Humanitarian
                   Award (for high school students) presented by the Greater
                   New York Wallenberg Committee, for activities supporting
@@ -234,9 +216,9 @@ switches. Avocent/Cyclades ACS console servers.
 	\end{description}
 
 %%%%%%%%%%%%%%%%%%%%%%
-\resheading{References}
-\begin{description}
-\item{Available upon request.}
-\end{description}
+%\resheading{References}
+%\begin{description}
+%\item{Available upon request.}
+%\end{description}
 
 \end{document}

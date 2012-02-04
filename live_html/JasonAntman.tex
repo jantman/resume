@@ -1,0 +1,197 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003 David J. Grant <dgrant@ieee.org> http://www.davidgrant.ca
+% (c) 2007 Todd C. Miller <Todd.Miller@courtesan.com> http://www.courtesan.com/todd or http://www.gratisoft.us/todd/resume.html
+% (c) 2009 Jason Antman <jason@jasonantman.com> http://www.jasonantman.com
+%
+%This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/1.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Jason Antman}  & 201.906.7347\\
+110 Chateau Court Apt. 11 &  jason@jasonantman.com \\
+Athens, GA 30606& http://resume.jasonantman.com\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{Rutgers University}{Piscataway, NJ}{BA, Information Technology and Informatics}{January 2006 - October 2009}
+	\begin{itemize}
+		\resitem{BA in Information Technology and Informatics, Rutgers
+                College / School of Communication and Information.}
+                \resitem{Minor in General History.}
+	\end{itemize}
+\end{itemize}
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{Rutgers University - Central Systems \&
+          Services}{Piscataway, NJ}{System Administrator}{September 2007 - Present}
+	\begin{itemize}
+                \resitem{Part Time September 2007 - May 2010. Full Time May 2010 - Present.}
+                \resitem{Specification, design, implementation and ongoing second-level support of centralized production services including configuration management (Puppet), DHCP, WPA2/RADIUS authentication and accounting, centralized logging (rsyslog), residential (dorm) network authentication/registration/DHCP infrastructure.}
+                \resitem{System administration and troubleshooting of
+                  service-critical Linux (RedHat/CentOS, SuSE) servers and
+                  applications (Apache httpd, MySQL, etc.), appliances, and network devices.}
+                \resitem{Extensive scripting and custom tool development
+                  (PHP/Ajax, some Java and Python)
+                  - Linux services, Puppet, ISC dhcpd, FreeRADIUS, Meru and BlueSocket wireless equipment, etc.}
+                \resitem{Investigated security issues on campus wireless network; identified and analyzed security vulnerabilities in vendor-supplied software.}
+                \resitem{Third-level support and troubleshooting of campus-wide wireless network and wired residential network issues. Assisted with network administration tasks.}
+                \resitem{Management of Nagios and Cacti for availability and performance monitoring.}
+		\resitem{Development and proof-of-concept of University common area wired 802.1x authentication, with captive portal and MAC auth fall-through.}
+		\resitem{Development of server configuration and security
+                  policies, and compliance audit tools.}
+                \resitem{Assisted as required with hardware upgrades/installations of wireless equipment and student computer labs.}
+	\end{itemize}
+
+\item
+        \ressubheading{Sun Microsystems}{Somerset, NJ}{Campus Ambassador}{September 2007 - June 2008}
+        \begin{itemize}
+                \resitem{Campus Ambassador to Rutgers University, responsible for spreading awareness of Sun's open-source product offerings (OpenSolaris, NetBeans, Java) among students, faculty, and staff.}
+        \end{itemize}
+
+\item
+        \ressubheading{Freelance System Administration/Programming}{ }{ }{September 2007 - Present}
+        \begin{itemize}
+               \resitem{Developed and implemented PHP-based invoice printing system for electrical parts distributor.}
+               \resitem{Performed full backup, analysis, recovery and documentation of a custom SCO Unix server (broken and abandoned by previous consultant).}
+               \resitem{Other small projects.}
+        \end{itemize}
+
+\item
+	\ressubheading{Rutgers University - NetOps}{Piscataway, NJ}{Student Systems Programmer}{April 2006 - May 2007}
+	\begin{itemize}
+		\resitem{Responsible for various web application programming projects, primarily developed for
+                  PHP/MySQL on Linux and Solaris.}
+	\end{itemize}
+
+\end{itemize}
+
+\pagebreak
+
+\resheading{Volunteer Experience}
+\begin{itemize}
+\item
+        \ressubheading{Midland Park Ambulance Corps}{Midland Park, NJ}{}{January 2006 - Present}
+        \begin{itemize}
+                \resitem{Sole person responsible for engineering and administration of
+                  mission-critical internal network, applications and
+                  Internet-accessible resources supporting 911 Emergency
+                  Medical response as a local, county and state resource.}
+                \resitem{Responsible for design, development and ongoing support (production
+                  status since January 2006) of a custom application to
+                  collect and store patient care records (currently in second version).}
+                \resitem{Responsible for development, support and ongoing
+                  improvements to PHP EMS Tools, a web-based application for
+                  scheduling, roster and certification tracking and day-to-day
+                administrative tasks for volunteer emergency services
+                organizations. In production at Midland Park Ambulance Corps
+                since January 2007. (See below, ``Projects''.)}
+%                \resitem{Responsible for programming, maintenance and upkeep
+%                  of all radio communications equipment.}
+                \resitem{Served in numerous capacities including Crew Chief,
+                  By-Laws Committee Chairman, Computer Committee Chairman,
+                  Treasurer and First Lieutenant (second-in-command).}
+                \resitem{Developed VoIP-based system for EMTs to notify
+                  dispatch of their response to an emergency call.}
+        \end{itemize}
+\end{itemize}
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages:]
+Extensive experience with PHP, Python, Bash/Sh, SQL. Moderate Java
+skills. Able to understand C and sane Perl.
+\item[Operating Systems:]
+7 years experience in use and administration of Linux. 4+ years experience administering production/critical Linux servers.
+Majority of recent experience with CentOS/RedHat; former experience with SuSE
+(7.3-11.3). Passable Solaris 10 skills (mainly migration to Linux). Vyatta Network OS, Cisco CatOS and IOS. MacOS (user).
+\item[Software:]
+Strong: Puppet, ISC dhcpd, FreeRADIUS, rsyslog, Nagios, Cacti, Bacula, Apache HTTPD, MySQL, Postfix, Procmail, MediaWiki, IPtables, Vyatta router/firewall. Moderate: ISC BIND9, Asterisk, Subversion (administration), WordPress, OCS Inventory. Basic: OpenLDAP, Dovecot, CUPS, Xen virtualization. Strongest Network Protocols: RADIUS, DHCP.
+
+%\item[Network Protocols:]
+%HTTP(S), LDAP, RADIUS, DHCP, SSH, DNS, IMAP(S), SMTP(S), SNMP, NFS, TFTP, IAX2.
+
+\item[Hardware:]
+HP Proliant, Sun and Dell x86/x86-64 servers, HP iLO, Sun iLOM. Linux- and
+BSD-based network devices. Soekris embedded computers, Meru and BlueSocket
+wireless access points and controllers. Cisco and HP ProCurve network hardware. Avocent/Cyclades ACS console servers.
+\end{description}
+
+%%%\pagebreak
+
+\resheading{Projects}
+
+\begin{description}
+\item[2007--Present:] PHP EMS Tools (www.php-ems-tools.com) - a scheduling and
+  administrative tool for emergency services agencies, coded in PHP with a MySQL
+  backend. Also includes LDAP integration and a Asterisk-based system to accept
+  real-time confirmation phone calls from first responders enroute to
+  emergencies. GPL-licensed Free/Open Source with over 1,000 downloads.
+\item[In Progress] Meru Networks configuration file generation tool - web-based tool
+  for generating and manipulating Meru Networks controller configurations, specifically
+  adding access points and moving groups of APs between controllers.
+\item See also: http://www.jasonantman.com and http://blog.jasonantman.com for others.
+
+\end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Activities}
+	\begin{description}
+		\item Member, USENIX SAGE (System Administration special
+                  interest group).
+                \item Member, League of Professional System Administrators
+                  (LOPSA), New Jersey chapter.
+                \item 2005 recipient of the Raoul Wallenberg Humanitarian
+                  Award (for high school students) presented by the Greater
+                  New York Wallenberg Committee, for activities supporting
+                  local homeless outreach program.
+	\end{description}
+
+\textbf{References and letter of recommendation available upon request.}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%\resheading{References}
+%\begin{description}
+%\item{Available upon request.}
+%\end{description}
+
+\end{document}

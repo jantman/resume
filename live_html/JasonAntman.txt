@@ -1,0 +1,173 @@
+
+   Jason Antman
+   110 Chateau Court Apt. 11
+   Athens, GA 30606
+
+   201.906.7347 (phone)
+   jason@jasonantman.com
+   http://resume.jasonantman.com
+
+   Education
+
+     *
+
+       Rutgers University                          Piscataway, NJ
+       BA, Information Technology and Informatics  January 2006 - October 2009
+
+          + BA in Information Technology and Informatics, Rutgers College
+            / School of Communication and Information.
+          + Minor in General History.
+
+   Work Experience
+
+     *
+
+       Rutgers University - Central Systems & Services  Piscataway, NJ
+       System Administrator                             September 2007 - Present
+
+          + Part Time September 2007 - May 2010. Full Time May 2010 -
+            Present.
+          + Specification, design, implementation and ongoing second-level
+            support of centralized production services including
+            configuration management (Puppet), DHCP, WPA2/RADIUS
+            authentication and accounting, centralized logging (rsyslog),
+            residential (dorm) network authentication/registration/DHCP
+            infrastructure.
+          + System administration and troubleshooting of service-critical
+            Linux (RedHat/CentOS, SuSE) servers and applications (Apache
+            httpd, MySQL, etc.), appliances, and network devices.
+          + Extensive scripting and custom tool development (PHP/Ajax,
+            some Java and Python) - Linux services, Puppet, ISC dhcpd,
+            FreeRADIUS, Meru and BlueSocket wireless equipment, etc.
+          + Investigated security issues on campus wireless network;
+            identified and analyzed security vulnerabilities in
+            vendor-supplied software.
+          + Third-level support and troubleshooting of campus-wide
+            wireless network and wired residential network issues.
+            Assisted with network administration tasks.
+          + Management of Nagios and Cacti for availability and
+            performance monitoring.
+          + Development and proof-of-concept of University common area
+            wired 802.1x authentication, with captive portal and MAC auth
+            fall-through.
+          + Development of server configuration and security policies, and
+            compliance audit tools.
+          + Assisted as required with hardware upgrades/installations of
+            wireless equipment and student computer labs.
+     *
+
+       Sun Microsystems   Somerset, NJ
+       Campus Ambassador  September 2007 - June 2008
+
+          + Campus Ambassador to Rutgers University, responsible for
+            spreading awareness of Sun’s open-source product offerings
+            (OpenSolaris, NetBeans, Java) among students, faculty, and
+            staff.
+     *
+
+       Freelance System Administration/Programming
+                                                    September 2007 - Present
+
+          + Developed and implemented PHP-based invoice printing system
+            for electrical parts distributor.
+          + Performed full backup, analysis, recovery and documentation of
+            a custom SCO Unix server (broken and abandoned by previous
+            consultant).
+          + Other small projects.
+     *
+
+       Rutgers University - NetOps  Piscataway, NJ
+       Student Systems Programmer   April 2006 - May 2007
+
+          + Responsible for various web application programming projects,
+            primarily developed for PHP/MySQL on Linux and Solaris.
+
+   Volunteer Experience
+
+     *
+
+       Midland Park Ambulance Corps  Midland Park, NJ
+                                     January 2006 - Present
+
+          + Sole person responsible for engineering and administration of
+            mission-critical internal network, applications and
+            Internet-accessible resources supporting 911 Emergency Medical
+            response as a local, county and state resource.
+          + Responsible for design, development and ongoing support
+            (production status since January 2006) of a custom application
+            to collect and store patient care records (currently in second
+            version).
+          + Responsible for development, support and ongoing improvements
+            to PHP EMS Tools, a web-based application for scheduling,
+            roster and certification tracking and day-to-day
+            administrative tasks for volunteer emergency services
+            organizations. In production at Midland Park Ambulance Corps
+            since January 2007. (See below, “Projects”.)
+          + Served in numerous capacities including Crew Chief, By-Laws
+            Committee Chairman, Computer Committee Chairman, Treasurer and
+            First Lieutenant (second-in-command).
+          + Developed VoIP-based system for EMTs to notify dispatch of
+            their response to an emergency call.
+
+   Skills
+
+   Languages:
+          Extensive experience with PHP, Python, Bash/Sh, SQL. Moderate
+          Java skills. Able to understand C and sane Perl.
+
+   Operating Systems:
+          7 years experience in use and administration of Linux. 4+ years
+          experience administering production/critical Linux servers.
+          Majority of recent experience with CentOS/RedHat; former
+          experience with SuSE (7.3-11.3). Passable Solaris 10 skills
+          (mainly migration to Linux). Vyatta Network OS, Cisco CatOS and
+          IOS. MacOS (user).
+
+   Software:
+          Strong: Puppet, ISC dhcpd, FreeRADIUS, rsyslog, Nagios, Cacti,
+          Bacula, Apache HTTPD, MySQL, Postfix, Procmail, MediaWiki,
+          IPtables, Vyatta router/firewall. Moderate: ISC BIND9, Asterisk,
+          Subversion (administration), WordPress, OCS Inventory. Basic:
+          OpenLDAP, Dovecot, CUPS, Xen virtualization. Strongest Network
+          Protocols: RADIUS, DHCP.
+
+   Hardware:
+          HP Proliant, Sun and Dell x86/x86-64 servers, HP iLO, Sun iLOM.
+          Linux- and BSD-based network devices. Soekris embedded
+          computers, Meru and BlueSocket wireless access points and
+          controllers. Cisco and HP ProCurve network hardware.
+          Avocent/Cyclades ACS console servers.
+
+   Projects
+
+   2007–Present:
+          PHP EMS Tools (www.php-ems-tools.com) - a scheduling and
+          administrative tool for emergency services agencies, coded in
+          PHP with a MySQL backend. Also includes LDAP integration and a
+          Asterisk-based system to accept real-time confirmation phone
+          calls from first responders enroute to emergencies. GPL-licensed
+          Free/Open Source with over 1,000 downloads.
+
+   In Progress
+          Meru Networks configuration file generation tool - web-based
+          tool for generating and manipulating Meru Networks controller
+          configurations, specifically adding access points and moving
+          groups of APs between controllers.
+
+          See also: http://www.jasonantman.com and
+          http://blog.jasonantman.com for others.
+
+   Activities
+
+          Member, USENIX SAGE (System Administration special interest
+          group).
+
+          Member, League of Professional System Administrators (LOPSA),
+          New Jersey chapter.
+
+          2005 recipient of the Raoul Wallenberg Humanitarian Award (for
+          high school students) presented by the Greater New York
+          Wallenberg Committee, for activities supporting local homeless
+          outreach program.
+
+   References and letter of recommendation available upon request.

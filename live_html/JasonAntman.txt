@@ -22,8 +22,22 @@
 
      *
 
-       Rutgers University - Central Systems & Services  Piscataway, NJ
-       System Administrator                             September 2007 - Present
+       TechTarget            Alpharetta, GA
+       System Administrator  November 2011 - Present
+
+          + Design and implementation of Puppet-based configuration
+            management for all new server deployments.
+          + Administration and support of homogeneous production and
+            development server infrastructure (Solaris, multiple flavors
+            of Linux, some Windows).
+          + Monitoring and performance analysis of VMWare ESX and vCenter5
+            clusters.
+          + Participation in 7-day-long on-call rotation for all
+            production services.
+     *
+
+  Rutgers University - Central Systems & Services  Piscataway, NJ
+  System Administrator                             September 2007 - October 2011
 
           + Part Time September 2007 - May 2010. Full Time May 2010 -
             Present.
@@ -56,24 +70,13 @@
             wireless equipment and student computer labs.
      *
 
-       Sun Microsystems   Somerset, NJ
-       Campus Ambassador  September 2007 - June 2008
+       Sun Microsystems    Somerset, NJ
+       Campus Ambassador   September 2007 - June 2008
 
           + Campus Ambassador to Rutgers University, responsible for
             spreading awareness of Sun’s open-source product offerings
             (OpenSolaris, NetBeans, Java) among students, faculty, and
             staff.
-     *
-
-       Freelance System Administration/Programming
-                                                    September 2007 - Present
-
-          + Developed and implemented PHP-based invoice printing system
-            for electrical parts distributor.
-          + Performed full backup, analysis, recovery and documentation of
-            a custom SCO Unix server (broken and abandoned by previous
-            consultant).
-          + Other small projects.
      *
 
        Rutgers University - NetOps  Piscataway, NJ
@@ -113,7 +116,7 @@
 
    Languages:
           Extensive experience with PHP, Python, Bash/Sh, SQL. Moderate
-          Java skills. Able to understand C and sane Perl.
+          skill in Java, Perl. Able to understand C.
 
    Operating Systems:
           7 years experience in use and administration of Linux. 4+ years
@@ -124,19 +127,22 @@
           IOS. MacOS (user).
 
    Software:
-          Strong: Puppet, ISC dhcpd, FreeRADIUS, rsyslog, Nagios, Cacti,
-          Bacula, Apache HTTPD, MySQL, Postfix, Procmail, MediaWiki,
-          IPtables, Vyatta router/firewall. Moderate: ISC BIND9, Asterisk,
-          Subversion (administration), WordPress, OCS Inventory. Basic:
-          OpenLDAP, Dovecot, CUPS, Xen virtualization. Strongest Network
-          Protocols: RADIUS, DHCP.
+          Strong: Puppet, ISC dhcpd, FreeRADIUS, rsyslog, Nagios/Icings,
+          Cacti, Bacula, Apache HTTPD, MySQL, Postfix, Procmail,
+          MediaWiki, IPtables, Vyatta router/firewall. Moderate: ISC
+          BIND9, Asterisk, Subversion (SVN), WordPress, OCS Inventory.
+          Basic: OpenLDAP, Dovecot, CUPS, Xen and VMWare virtualization
+          (vCenter5), JBoss, Tomcat, RoR/Phusion Passenger, Redmine.
+          Strongest Network Protocols: RADIUS, DHCP, DNS, SNMP.
 
    Hardware:
           HP Proliant, Sun and Dell x86/x86-64 servers, HP iLO, Sun iLOM.
           Linux- and BSD-based network devices. Soekris embedded
           computers, Meru and BlueSocket wireless access points and
-          controllers. Cisco and HP ProCurve network hardware.
-          Avocent/Cyclades ACS console servers.
+          controllers. Cisco network hardware. Avocent/Cyclades ACS
+          console servers. F5 Big-Ip load balancers. Experience with
+          physical infrastructure maintenance (copper, fiber, power) and
+          data center operations.
 
    Projects
 
@@ -147,12 +153,6 @@
           Asterisk-based system to accept real-time confirmation phone
           calls from first responders enroute to emergencies. GPL-licensed
           Free/Open Source with over 1,000 downloads.
-
-   In Progress
-          Meru Networks configuration file generation tool - web-based
-          tool for generating and manipulating Meru Networks controller
-          configurations, specifically adding access points and moving
-          groups of APs between controllers.
 
           See also: http://www.jasonantman.com and
           http://blog.jasonantman.com for others.

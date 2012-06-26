@@ -49,13 +49,15 @@ $mtimeStr = date("Y-m-d", $mtime);
 <p><span class="areatitle">What I&#39;m looking for:</span></p>
 <p class="indented">I am an enthusiastic, talented, self-motivated system
   administrator/engineer looking for a mid- to senior-level operations/DevOps
-  position in an agile environment. I'm obsessed with monitoring, performance
+  position in a fast-moving environment. I'm obsessed with monitoring, performance
   analysis, automation, and developing tools to make operations more
   efficient and reliable. I'm looking for an environment where sysadmins are
   inventors, tinkerers, developers, scientists, and problem solvers on the
   macro scale. I want to code myself out of a job, and believe that machine
   provisioning should be a point-and-click task, allowing my team to focus on
-  bigger problems. If things like large-scale log analysis, dashboard
+  bigger problems. I yearn to work in an environment where I have the ability
+  to try new things and take ownership of problems and projects at a high
+  level, yet have a skilled team to work with. If things like large-scale log analysis, dashboard
   creation, automated provisioning, and idempotent configuration management
   are in your every day vocabulary, I'd probably enjoy working with you.</p>
 

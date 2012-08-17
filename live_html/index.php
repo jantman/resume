@@ -48,7 +48,8 @@ $mtimeStr = date("Y-m-d", $mtime);
 
 <p><span class="areatitle">What I&#39;m looking for:</span></p>
 <p class="indented">I am an enthusiastic, talented, self-motivated system
-  administrator/engineer looking for a mid- to senior-level operations/DevOps
+  administrator/engineer looking for a mid- to senior-level
+  (<a href="http://static.sage.org/pubs/22_jobs/">SAGE Level III</a>) operations/DevOps
   position in a fast-moving environment. I'm obsessed with monitoring, performance
   analysis, automation, and developing tools to make operations more
   efficient and reliable. I'm looking for an environment where sysadmins are

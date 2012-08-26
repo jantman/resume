@@ -84,7 +84,16 @@ Personally, I have been a Linux user for nine years, and have been administering
 <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
 </p>
 
-
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://wa.jasonantman.com/" : "http://wa.jasonantman.com/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "js/' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 7);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://wa.jasonantman.com/piwik.php?idsite=7" style="border:0" alt="" /></p></noscript>
 </body>
 
 </html>

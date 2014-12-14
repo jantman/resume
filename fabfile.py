@@ -35,7 +35,7 @@ def build():
     with open('index.html.template', 'r') as fh:
         html_template = fh.read()
     ds = datetime.datetime.now().strftime('%Y-%m-%d')
-    html = html_template.format(updated_date=ds)
+    html = html_template.replace('{updated_date}', ds)
     with open('live_html/index.html', 'w') as fh:
         fh.write(html)
     print("Wrote formatted html to live_html/index.html")

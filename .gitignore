@@ -9,3 +9,4 @@ resume.ps
 resume.tmp
 resume.xref
 *~
+*.pyc

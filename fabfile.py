@@ -14,9 +14,13 @@ def clean():
     local('rm -f *.aux *.log *.ps *.pdf *.dvi *~ resume.html *.css *.4tc *.4ct *.idv *.lg *.tmp *.xref *.bak *.txt')
     local('rm -f labels.pl')
 
+def test():
+    local('latex -halt-on-error resume.tex')
+
 def build():
     """ build output """
     clean()
+    test()
     # pdf
     local('latex resume')
     local('dvips -t letter resume.dvi')

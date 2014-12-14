@@ -1,4 +1,4 @@
 My Resume
 =========
 
-Currently in the process of moving from LaTeX to something more modern.
+See http://resume.jasonantman.com or the live_html/ directory for the actual assets. This is mostly just internals and how it's built.

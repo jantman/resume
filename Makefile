@@ -41,5 +41,5 @@ spell:
 	aspell --mode=tex --dont-tex-check-comments check resume.tex
 
 text: html
-	pandoc -f html -t plain -o JasonAntman.txt resume.html
+	pandoc -f html -t plain -o resume.txt resume.html
 

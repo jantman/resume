@@ -32,6 +32,13 @@ def build():
     local('cp resume.tex live_html/JasonAntman.tex')
     local('mv resume.txt live_html/JasonAntman.txt')
     local('mv resume.pdf live_html/JasonAntman.pdf')
+    with open('index.html.template', 'r') as fh:
+        html_template = fh.read()
+    ds = datetime.datetime.now().strftime('%Y-%m-%d')
+    html = html_template.format(updated_date=ds)
+    with open('live_html/index.html', 'w') as fh:
+        fh.write(html)
+    print("Wrote formatted html to live_html/index.html")
 
 def spell():
     """ aspell check tex source """

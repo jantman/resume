@@ -40,6 +40,6 @@ clean:
 spell:
 	aspell --mode=tex --dont-tex-check-comments check resume.tex
 
-text:
-	lynx -dump -nolist resume.html > resume.txt
+text: html
+	pandoc -f html -t plain -o JasonAntman.txt resume.html
 

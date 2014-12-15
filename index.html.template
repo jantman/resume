@@ -27,7 +27,18 @@
 <div class="area">
 <p><span class="areatitle">Potential employers may also be interested in visiting:</span></p>
 <ul>
-<li><a href="https://github.com/jantman/">My GitHub</a></li>
+  <li><a href="https://github.com/jantman/">My GitHub</a>
+    <ul>
+      <li><a href="https://github.com/jantman/pydnstest">pydnstest</a>, a python tool for testing DNS changes in a staging environment, and confirming them in production</li>
+      <li><a href="https://github.com/jantman/vagrant-r10k">vagrant-r10k</a>, a Vagrant plugin to populate puppet modules via <a href="https://github.com/adrienthebo/r10k">adrienthebo's r10k</a> and a Puppetfile</li>
+      <li><a href="https://github.com/jantman/workstation-bootstrap">workstation-bootstrap</a> and <a href="https://github.com/jantman/puppet-archlinux-macbookretina">puppet-archlinux-macbookretina</a>, the tools I use to build my desktop and laptop OS installs</li>
+      <li><a href="https://github.com/jantman/pypuppetdb-daily-report">pypuppetdb-daily-report</a>, a python script to pull daily activity reports from PuppetDB</a></li>
+      <li><a href="https://github.com/jantman/misc-scripts">misc-scripts</a>, a dumping ground for some semi-useful small scripts</a></li>
+      <li><a href="https://github.com/jantman/php-nagios-xml">php-nagios-xml</a>, a PHP script to parse Nagios status.dat into XML</li>
+      <li><a href="https://github.com/jantman/nagios-scripts">nagios-scripts</a>, a collection of Nagios check scripts I've written</l>i
+      <li><a href="https://github.com/jantman/following">who I'm following</a> and <a href="https://github.com/stars/jantman">what I've starred</a></li>
+    </ul>
+  </li>
 <li><a href="http://blog.jasonantman.com">My blog</a> - an esoteric collection of posts on my projects and other technical matters.</li>
 <li><a href="http://twitter.com/j_antman">Twitter (@j_antman)</a>.</li>
 </ul>

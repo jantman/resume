@@ -17,6 +17,16 @@ def clean():
 def test():
     local('latex -halt-on-error resume.tex')
 
+def html():
+    """ build html frontpage """
+    with open('index.html.template', 'r') as fh:
+        html_template = fh.read()
+    ds = datetime.datetime.now().strftime('%Y-%m-%d')
+    html = html_template.replace('{updated_date}', ds)
+    with open('live_html/index.html', 'w') as fh:
+        fh.write(html)
+    print("Wrote formatted html to live_html/index.html")
+
 def build():
     """ build output """
     clean()
@@ -37,13 +47,7 @@ def build():
     local('mv resume.txt live_html/JasonAntman.txt')
     local('mv resume.pdf live_html/JasonAntman.pdf')
     local('cp CNAME live_html/CNAME')
-    with open('index.html.template', 'r') as fh:
-        html_template = fh.read()
-    ds = datetime.datetime.now().strftime('%Y-%m-%d')
-    html = html_template.replace('{updated_date}', ds)
-    with open('live_html/index.html', 'w') as fh:
-        fh.write(html)
-    print("Wrote formatted html to live_html/index.html")
+    html()
 
 def spell():
     """ aspell check tex source """

@@ -1,10 +1,10 @@
 Jason Antman
- 110 Chateau Court Apt. 11
- Athens, GA 30606
+ 413 Renaissance Way
+ Conyers, GA 30012
 
-201.906.7347 (phone)
+201.906.7347
  jason@jasonantman.com
- http://resume.jasonantman.com
+ resume.jasonantman.com
 
 Education
 
@@ -69,7 +69,7 @@ Work Experience
 -   TechTarget (NASDAQ: TTGT) 
     Alpharetta, GA
     System Administrator  
-    November 2011 - Present
+    November 2011 - October 2012
      
 
     -   Design and implementation of Puppet-based configuration

@@ -26,31 +26,32 @@ Work Experience
     June 2013 - Present
      
 
-    -   Designed Puppet3 infrastructure using latest best practices,
-        planned and excuted migration of existing nodes to
+    -   Designed and developed large portions of “batteries-included”
+        (CloudWatch, NewRelic, Logstash) single-click Python webapp
+        deployment tooling using Puppet, Packer and AWS CloudFormation
+        (Troposphere and Boto). Replicated for Wordpress and ported to
+        internal VMWare environment.
+    -   Developed and implemented AWS tagging standard for complete
+        per-app cost tracking (using NetFlix Ice); implemented AWS cost
+        saving measures to reduce cost of some applications by up
+        to 60%.
+    -   Developed a tool (awslimitchecker) to warn when AWS resource
+        usage approaches Service Limits.
+    -   Designed Puppet3 infrastructure using latest best practices;
+        planned and excuted migration of  300 existing nodes to
         new infrastructure. This included monitoring and
-        deployment/testing/promotion of code.
+        deployment/testing (Jenkins) /promotion of code.
     -   Took lead role in design/planning and buildout of multiple
         production-like test environments; cut buildout time for
-        environments 2+ by approximately 75%.
-    -   Automated development environment creation to reduce buildout
-        time by 60+%.
+        environments 2+ by approximately 75%. Automated development
+        environment creation to reduce buildout time by 60+%.
     -   Planned use of environment variables in Apache httpd
         configurations to replace divergent configuration with a single
         git repository promoted between environments.
-    -   Assisted small team with overhaul of nightly production to dev
-        environment database clone procedure (500GB
-        PostgresQL database).
-    -   Developed prod-like Vagrant-based local development environment
-        for main application (Django CMS).
-    -   Assisted in planning and development of single-click application
-        stacks in AWS using Puppet, Packer and CloudFormation.
-    -   Contributions to Puppet and community modules as well as other
-        open source projects.
     -   Developed vagrant-r10k plugin to allow provisioning puppet
         modules for Vagrant via r10k Puppetfile.
-    -   SME for various operations/automation topics and
-        some applications.
+    -   Planned and executed migration of  300 internal Git repos from
+        legacy (ssh-based) server to GitLab. (in-progress 8/2015)
 -   CMG Digital  
     Atlanta, GA
     Systems Engineer 
@@ -66,6 +67,8 @@ Work Experience
         storage and display; began alerting off of metrics.
     -   Proof of concept for migration from Nagios/NagioSQL to Icinga
         with Puppet-generated configuration.
+    -   Rewrote Puppet yum/rpm version comparison to fix numerous bugs;
+        merged and released in puppet4.
 -   TechTarget (NASDAQ: TTGT) 
     Alpharetta, GA
     System Administrator  
@@ -77,8 +80,7 @@ Work Experience
     -   Technical lead - monitoring and performance analysis of Linux OS
         and application software, VMWare ESX/vCenter5/vSphere;
         distributed Nagios and collectd infrastructure, Veeam One
-        virtualization monitoring for end-users, Tidal
-        Enterprise Scheduler.
+        virtualization monitoring for end-users.
     -   Development of internal tools and infrastructure; technical
         lead/architect for centralized logging, log analysis, DNS
         infrastructure redesign.
@@ -92,8 +94,8 @@ Work Experience
         support of centralized production services including
         configuration management (Puppet), DHCP, WPA2/RADIUS
         authentication and accounting, centralized logging (rsyslog),
-        residential (dorm) network authentication / registration /
-        DHCP infrastructure.
+        residential (dorm) network authentication / registration / DHCP
+        infrastructure (30,000+ users).
     -   Extensive scripting and custom tool development (PHP/Ajax, some
         Java and Python) - Linux services, Puppet, ISC dhcpd,
         FreeRADIUS, Meru and BlueSocket wireless equipment, etc.
@@ -108,14 +110,6 @@ Work Experience
         auth fall-through.
     -   Development and support of custom linux-based appliances /
         embedded network devices.
--   Rutgers University - NetOps 
-    Piscataway, NJ
-    Student Systems Programmer  
-    April 2006 - May 2007
-     
-
-    -   Responsible for various web application programming projects,
-        primarily developed with PHP/MySQL on Linux and Solaris.
 
 Volunteer Experience
 
@@ -125,10 +119,12 @@ Volunteer Experience
     January 2006 - January 2012
      
 
-    -   Sole person responsible for engineering and administration of
+    -   Single person responsible for engineering and administration of
         mission-critical internal network, applications and
         Internet-accessible resources supporting 911 Emergency Medical
         response as a local, county and state resource.
+    -   Developed VoIP-based system for EMTs to notify dispatch of their
+        response to an emergency call.
     -   Responsible for design, development and ongoing support of a
         custom application to collect and store patient care records, as
         well handling crew scheduling and internal
@@ -136,8 +132,6 @@ Volunteer Experience
     -   Served in numerous capacities including EMT-B, Crew Chief,
         By-Laws Committee Chairman, Computer Committee Chairman,
         Treasurer and First Lieutenant (operational second-in-command).
-    -   Developed VoIP-based system for EMTs to notify dispatch of their
-        response to an emergency call.
 
 Skills
 
@@ -149,30 +143,30 @@ Skills
     Twelve years experience in use and administration of Linux; 7+ years
     experience architecting and administering production/critical
     Linux servers. Majority of recent experience with CentOS/RedHat 5-7;
-    former experience with SuSE (7.3-11.3). Basic Solaris 9/10 skills
-    (mainly migration to Linux). Vyatta Network OS/VyOS, Cisco CatOS
-    and IOS. MacOS (user).
+    former experience with SuSE (7.3-11.3). Vyatta Network OS/VyOS,
+    Cisco CatOS and IOS.
 
  Software: 
     Strong: Puppet and related tools, Vagrant, Packer.io, Nagios/Icinga,
-    Graphite, Apache HTTPD, Git. Moderate: AWS CloudFormation,
-    pip/virtualenv, MySQL, Postfix, Solr, Logstash,
-    ElasticSearch, Tomcat. Previous: ISC BIND9, ISC dhcpd, FreeRADIUS,
-    rsyslog, Asterisk, OCS Inventory, OpenLDAP, memcached. Protocols:
-    RADIUS, DHCP, DNS, SNMP.
+    Graphite, Apache HTTPD, Git, boto, pytest/Mock, AWS CloudFormation.
+    Moderate: pip/virtualenv, MySQL, PostgreSQL, Solr,
+    Logstash, ElasticSearch. Previous: Tomcat, Postfix, ISC BIND9, ISC
+    dhcpd, FreeRADIUS, rsyslog, Asterisk, OpenLDAP, memcached.
+    Protocols: RADIUS, DHCP, DNS, SNMP.
 
  Hardware: 
     HP Proliant, Sun, Dell and SuperMicro x86/x86-64 servers, HP iLO,
-    Sun iLOM. Linux- and BSD-based network devices. Soekris embedded
-    computers, Meru and BlueSocket wireless access points
-    and controllers. Cisco network hardware. Avocent/Cyclades ACS
-    console servers. F5 BigIp load balancers. Experience with physical
+    Sun iLOM. F5 BigIp load balancers. Linux- and BSD-based
+    network devices. Soekris embedded computers, Meru and BlueSocket
+    wireless access points and controllers. Cisco network hardware.
+    Avocent/Cyclades ACS console servers. Experience with physical
     infrastructure maintenance (copper, fiber, power) and data
     center operations.
 
 Open Source Projects and Contributions
 
  
-    See resume.jasonantman.com for highlights.
+    See resume.jasonantman.com for highlights, and
+    https://github.com/jantman.
 
 

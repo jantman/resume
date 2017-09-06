@@ -31,12 +31,11 @@
     <ul>
       <li><a href="https://github.com/search?utf8=%E2%9C%93&q=author%3Ajantman+type%3Apr+-user%3Ajantman&type=Issues&ref=searchresults">My pull requests</a></li>
       <li><a href="https://github.com/jantman/awslimitchecker">awslimitchecker</a>, a command-line tool and Python package to check AWS usage against service limits.</li>
-      <li><a href="https://github.com/jantman/pydnstest">pydnstest</a>, a python tool for testing DNS changes in a staging environment, and confirming them in production</li>
+      <li><a href="https://github.com/jantman/pypi-download-stats">pypi-download-stats</a>, a tool to generate download count badges and statistics reports for projects on PyPI.</li>
       <li><a href="https://github.com/jantman/vagrant-r10k">vagrant-r10k</a>, a Vagrant plugin to populate puppet modules via <a href="https://github.com/adrienthebo/r10k">adrienthebo's r10k</a> and a Puppetfile</li>
-      <li><a href="https://github.com/jantman/workstation-bootstrap">workstation-bootstrap</a> and <a href="https://github.com/jantman/puppet-archlinux-macbookretina">puppet-archlinux-macbookretina</a>, the tools I use to build my desktop and laptop OS installs</li>
-      <li><a href="https://github.com/jantman/pypuppetdb-daily-report">pypuppetdb-daily-report</a>, a python script to pull daily activity reports from PuppetDB</a></li>
-      <li><a href="https://github.com/jantman/misc-scripts">misc-scripts</a>, a random collection of small scripts</a></li>
-      <li><a href="https://github.com/jantman/php-nagios-xml">php-nagios-xml</a>, a PHP script to parse Nagios status.dat into XML</li>
+      <li><a href="https://github.com/jantman/workstation-bootstrap">workstation-bootstrap</a>, <a href="https://github.com/jantman/puppet-archlinux-workstation">puppet-archlinux-workstation</a> and <a href="https://github.com/jantman/puppet-archlinux-macbookretina">puppet-archlinux-macbookretina</a>, the tools I use to build my desktop and laptop OS installs</li>
+      <li><a href="https://github.com/jantman/misc-scripts">misc-scripts</a>, a random collection of small scripts.</li>
+      <li><a href="https://github.com/jantman/biweeklybudget">biweeklybudget</a>, my personal finance application.</li>
     </ul>
 </li>
 <li><a href="http://www.repostatus.org/">RepoStatus.org</a>, a SCM- and hosting-agnostic method of indicating the development status of a code repository.</li>
@@ -102,7 +101,7 @@
     Corps</a>, a volunteer, 501(c)(3) non-profit BLS ambulance provider. In
   addition to designing and administering the general use and mission-critical
   LANs, I also developed a custom application for small ambulance providers
-  that handles electronic patient care report management (ePCR), tracks on-duty scheduling, membership roster, equipment maintenance, emergency response statistics, and other EMS management tasks. In early 2009, I also developed an Asterisk-based add-on to allow members responding to emergency calls to notify dispatch and other members of their response via telephone (results displayed in a web application, and on monitors around headquarters). From 2006 until I moved to Georgia in late 2011, I was also an active volunteer EMT, holding various positions including First Lieutenant (operational second-in-command), Treasurer and Crew Chief. 
+  that handles electronic patient care report management (ePCR), tracks on-duty scheduling, membership roster, equipment maintenance, emergency response statistics, and other EMS management tasks. In early 2009, I also developed an Asterisk-based add-on to allow members responding to emergency calls to notify dispatch and other members of their response via telephone (results displayed in a web application, and on monitors around headquarters). From 2006 until I moved to Georgia in late 2011, I was also an active volunteer EMT, holding various positions including First Lieutenant (operational second-in-command), Treasurer and Crew Chief.
 </p>
 
 <p class="indented">

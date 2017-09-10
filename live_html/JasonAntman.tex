@@ -41,14 +41,64 @@
 
 \begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
 \textbf{\large Jason Antman}  & 201.906.7347\\
-413 Renaissance Way&  
+2023 Loch Haven Dr. SE&
 \href{mailto:jason@jasonantman.com}{jason@jasonantman.com} \\
-Conyers, GA 30012&  
+Conyers, GA 30013&
 \href{http://resume.jasonantman.com}{resume.jasonantman.com} \\
 \end{tabular*}
 \\
 
 \vspace{0.1in}
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+  \ressubheading{Cox Automotive / Manheim}{Atlanta, GA}{Sr. Software Developer - Release Engineering Tooling}{September 2015 - Present}
+	\begin{itemize}
+								\resitem{Evangelized code review, unit testing and CI/CD for Release Engineering's own tooling. Presented and evangelized RE products to management and software development teams.}
+                \resitem{Architecture, design, deployment and support lead for Hashicorp Vault implementation including functional and security monitoring, extensive related tooling, automated deployment, documentation, DR procedures, and application integration.}
+								\resitem{Backup and disaster recovery tooling and procedures for highly-visible production Consul cluster.}
+								\resitem{Extensive development for our in-house self-service Jenkins infrastructure project; automated unit and acceptance tests, swarm node management, Vault integration, documentation, relase/versioning/upgrade process.}
+								\resitem{Implemented self-service administrative tool for globally searching GitHub Enterprise.}
+								\resitem{Docker Distribution (Registry v2) implementation, automation, upgrade and disaster recovery.}
+								\resitem{Lead internal implementation of Capital One's Cloud Custodian; extensive policy development, supporting tooling and monitoring.}
+								\resitem{Introduced and evangelized use of AWS Lambda for administrative and internal tasks.}
+	\end{itemize}
+\item
+	\ressubheading{Cox Media Group - Digital (CMGd)}{Atlanta, GA}{Automation \& Tools Engineer}{June 2013 - September 2015}
+	\begin{itemize}
+                \resitem{Designed and developed large portions of ``batteries-included'' (CloudWatch, NewRelic, Logstash) single-click Python webapp deployment tooling using Puppet, Packer and AWS CloudFormation (Troposphere and Boto). Replicated for Wordpress and ported to internal VMWare environment.}
+                \resitem{Developed and implemented AWS tagging standard for complete per-app cost tracking (using NetFlix Ice); implemented AWS cost saving measures to reduce cost of some applications by up to 60\%.}
+                \resitem{Designed Puppet3 infrastructure using latest best practices; planned and excuted migration of ~300 existing nodes to new infrastructure. This included monitoring and deployment/testing (Jenkins) /promotion of code.}
+                \resitem{Took lead role in design/planning and buildout of multiple production-like test environments; cut buildout time for environments 2+ by approximately 75\%. Automated development environment creation to reduce buildout time by 60+\%.}
+	\end{itemize}
+
+\item
+	\ressubheading{Cox Media Group - Digital (CMGd)}{Atlanta, GA}{Systems Engineer}{October 2012 - June 2013}
+	\begin{itemize}
+                \resitem{General and On-Call duties in a large and fast-paced Django-based web environment.}
+                \resitem{Designed and deployed multi-node Graphite cluster for metric storage and display; began alerting off of metrics.}
+                \resitem{Proof of concept for migration from Nagios/NagioSQL to Icinga with Puppet-generated configuration.}
+                \resitem{Rewrote Puppet yum/rpm version comparison to fix numerous bugs; merged and released in puppet4.}
+	\end{itemize}
+
+\item
+	\ressubheading{TechTarget  (NASDAQ: TTGT)}{Alpharetta, GA}{System Administrator}{November 2011 - October 2012}
+	\begin{itemize}
+		            \resitem{Design and implementation of Puppet-based configuration management and provisioning for all new server deployments.}
+                \resitem{Technical lead - monitoring and performance analysis of Linux OS, application software, and VMWare; development of internal tools and infrastructure; lead/architect for Nagios, collectd, centralized logging, log analysis, and DNS infrastructure redesign.}
+	\end{itemize}
+\item
+	\ressubheading{Rutgers University - Central Systems \& Services}{Piscataway, NJ}{System Administrator}{September 2007 - October 2011}
+	\begin{itemize}
+                \resitem{Specification, design, implementation and ongoing second-level support of centralized production services including configuration management (Puppet), DHCP, WPA2/RADIUS authentication and accounting, centralized logging (rsyslog), residential (dorm) network authentication / registration / DHCP infrastructure (30,000+ users).}
+                \resitem{Investigated security issues on campus wireless network; identified and analyzed security vulnerabilities in vendor-supplied software and hardware.}
+                \resitem{Third-level support and troubleshooting of campus-wide wireless network and wired residential network issues. Assisted with network administration tasks.}
+		            \resitem{Development and proof-of-concept of University common area wired 802.1x authentication, with captive portal and MAC auth fall-through.}
+		            \resitem{Development and support of custom linux-based appliances / embedded network devices.}
+	\end{itemize}
+
+\end{itemize}
 
 \resheading{Education}
 \begin{itemize}
@@ -61,72 +111,14 @@ Conyers, GA 30012&
 	\end{itemize}
 \end{itemize}
 
-\resheading{Work Experience}
-\begin{itemize}
-\item
-	\ressubheading{CMG Digital}{Atlanta, GA}{Automation \& Tools Engineer}{June 2013 - Present}
-	\begin{itemize}
-                \resitem{Designed and developed large portions of ``batteries-included'' (CloudWatch, NewRelic, Logstash) single-click Python webapp deployment tooling using Puppet, Packer and AWS CloudFormation (Troposphere and Boto). Replicated for Wordpress and ported to internal VMWare environment.}
-                \resitem{Developed and implemented AWS tagging standard for complete per-app cost tracking (using NetFlix Ice); implemented AWS cost saving measures to reduce cost of some applications by up to 60\%.}
-                \resitem{Developed a tool (\href{https://github.com/jantman/awslimitchecker}{awslimitchecker}) to warn when AWS resource usage approaches Service Limits.}
-                \resitem{Designed Puppet3 infrastructure using latest best practices; planned and excuted migration of ~300 existing nodes to new infrastructure. This included monitoring and deployment/testing (Jenkins) /promotion of code.}
-                \resitem{Took lead role in design/planning and buildout of multiple production-like test environments; cut buildout time for environments 2+ by approximately 75\%. Automated development environment creation to reduce buildout time by 60+\%.}
-                \resitem{Planned use of environment variables in Apache httpd configurations to replace divergent configuration with a single git repository promoted between environments.}
-                \resitem{Developed vagrant-r10k plugin to allow provisioning puppet modules for Vagrant via r10k Puppetfile.}
-                \resitem{Planned and executed migration of ~300 internal Git repos from legacy (ssh-based) server to GitLab. (in-progress 8/2015)}
-	\end{itemize}
-
-\item
-	\ressubheading{CMG Digital}{Atlanta, GA}{Systems Engineer}{October 2012 - June 2013}
-	\begin{itemize}
-                \resitem{General and On-Call duties in a large and fast-paced web media environment.}
-                \resitem{Deployed RPM build environment for internal and rebuilt external packages; packaged RPMs of Apache Tomcat, Zookeeper, and NodeJS for internal deployment.}
-                \resitem{Designed and deployed multi-node Graphite cluster for metric storage and display; began alerting off of metrics.}
-                \resitem{Proof of concept for migration from Nagios/NagioSQL to Icinga with Puppet-generated configuration.}
-                \resitem{Rewrote Puppet yum/rpm version comparison to fix numerous bugs; merged and released in puppet4.}
-	\end{itemize}
-
-\item
-	\ressubheading{TechTarget  (NASDAQ: TTGT)}{Alpharetta, GA}{System Administrator}{November 2011 - October 2012}
-	\begin{itemize}
-		\resitem{Design and implementation of Puppet-based configuration management and provisioning for all new server deployments.}
-                \resitem{Technical lead - monitoring and performance analysis of Linux OS and application software, VMWare ESX/vCenter5/vSphere; distributed Nagios and collectd infrastructure, Veeam One virtualization monitoring for end-users.}
-                \resitem{Development of internal tools and infrastructure; technical lead/architect for centralized logging, log analysis, DNS infrastructure redesign.}
-	\end{itemize}
-\pagebreak
-\item
-	\ressubheading{Rutgers University - Central Systems \&
-          Services}{Piscataway, NJ}{System Administrator}{September 2007 - October 2011}
-	\begin{itemize}
-                \resitem{Specification, design, implementation and ongoing second-level support of centralized production services including configuration management (Puppet), DHCP, WPA2/RADIUS authentication and accounting, centralized logging (rsyslog), residential (dorm) network authentication / registration / DHCP infrastructure (30,000+ users).}
-                \resitem{Extensive scripting and custom tool development
-                  (PHP/Ajax, some Java and Python)
-                  - Linux services, Puppet, ISC dhcpd, FreeRADIUS, Meru and BlueSocket wireless equipment, etc.}
-                \resitem{Investigated security issues on campus wireless network; identified and analyzed security vulnerabilities in vendor-supplied software and hardware.}
-                \resitem{Third-level support and troubleshooting of campus-wide wireless network and wired residential network issues. Assisted with network administration tasks.}
-		\resitem{Development and proof-of-concept of University common area wired 802.1x authentication, with captive portal and MAC auth fall-through.}
-		\resitem{Development and support of custom linux-based appliances / embedded network devices.}
-	\end{itemize}
-
-\end{itemize}
-
 \resheading{Volunteer Experience}
 \begin{itemize}
 \item
         \ressubheading{Midland Park Ambulance Corps}{Midland Park, NJ}{(501(c)(3) non-profit)}{January 2006 - January 2012}
         \begin{itemize}
-                \resitem{Single person responsible for engineering and administration of
-                  mission-critical internal network, applications and
-                  Internet-accessible resources supporting 911 Emergency
-                  Medical response as a local, county and state resource.}
-                \resitem{Developed VoIP-based system for EMTs to notify
-                  dispatch of their response to an emergency call.}
-                \resitem{Responsible for design, development and ongoing support of a custom application to
-                  collect and store patient care records, as well handling crew scheduling and internal
-                  administrative functions.}
-                \resitem{Served in numerous capacities including EMT-B, Crew Chief,
-                  By-Laws Committee Chairman, Computer Committee Chairman,
-                  Treasurer and First Lieutenant (operational second-in-command).}
+                \resitem{Responsible for engineering and administration of internal network, applications, and Internet-accessible resources supporting 911 Emergency Medical response as a local, county and state resource.}
+                \resitem{Design, development and ongoing support of a custom application to manage patient care records, crew scheduling, internal administrative functions, finances/budgeting, and VoIP-based crew member response tracking.}
+                \resitem{Served in numerous capacities including EMT-B, Crew Chief, By-Laws Committee Chairman, Computer Committee Chairman, Treasurer and First Lieutenant (operational second-in-command).}
         \end{itemize}
 \end{itemize}
 
@@ -134,26 +126,22 @@ Conyers, GA 30012&
 
 \begin{description}
 \item[Languages:]
-Current languages: Python, Ruby, Bash/Sh. Previously used: PHP, Perl. Basic knowledge: C, Java.
+Current languages: Python (six years), Ruby (three years). Basic or previous knowledge of Groovy, PHP, Perl, bash.
 % using linux since 2002. Admin since 2007.
 \item[Operating Systems:]
-Twelve years experience in use and administration of Linux; 7+ years experience architecting and administering production/critical Linux servers.
-Majority of recent experience with CentOS/RedHat 5-7; former experience with SuSE
-(7.3-11.3). Vyatta Network OS/VyOS, Cisco CatOS and IOS.
+Twelve years experience in use and administration of Linux; 10 years experience architecting and administering production Linux servers and applications.
+Primarily CentOS/RedHat on servers and AWS, Arch Linux personally. Experience with Vyatta Network OS/VyOS, Cisco CatOS and IOS.
 \item[Software:]
-Strong: Puppet and related tools, Vagrant, Packer.io, Nagios/Icinga, Graphite, Apache HTTPD, Git, boto, pytest/Mock, AWS CloudFormation.
-Moderate: pip/virtualenv, MySQL, PostgreSQL, Solr, Logstash, ElasticSearch.
-Previous: Tomcat, Postfix, ISC BIND9, ISC dhcpd, FreeRADIUS, rsyslog, Asterisk, OpenLDAP, memcached. Protocols: RADIUS, DHCP, DNS, SNMP.
+Many Amazon (AWS) offerings. Hashicorp Terraform, Vault, Consul, Packer, and related tools. Jenkins. Puppet. Graphite, Logstash/Elasticsearch, rsyslog, Nagios/Icinga. MySQL, PostgreSQL. Apache httpd, nginx. Git.
+Former experience with Solr, Postfix, ISC BIND9, ISC dhcpd, FreeRADIUS, Asterisk, OpenLDAP.
 
-\item[Hardware:]
-HP Proliant, Sun, Dell and SuperMicro x86/x86-64 servers, HP iLO, Sun iLOM. F5 BigIp load balancers. Linux- and
-BSD-based network devices. Soekris embedded computers, Meru and BlueSocket
-wireless access points and controllers. Cisco network hardware. Avocent/Cyclades ACS console servers. Experience with physical infrastructure maintenance (copper, fiber, power) and data center operations.
+\item[Platforms:]
+AWS. Previous experience with many datacenter technologies: VMWare, most Enterprise-grade server hardware, F5 Big-IP Load Balancers, network hardware, embedded devices, Meru and BlueSocket wireless hardware. Previous experience in datacenter operations and physical infrastructure (copper/fiber/power) management.
 \end{description}
 
 \resheading{Open Source Projects and Contributions}
 \begin{description}
-\item{See \href{http://resume.jasonantman.com}{resume.jasonantman.com} for highlights, and \href{https://github.com/jantman}{https://github.com/jantman}.}
+\item{See \href{http://resume.jasonantman.com}{resume.jasonantman.com} for highlights or \href{https://github.com/jantman}{https://github.com/jantman}.}
 \end{description}
 
 \end{document}

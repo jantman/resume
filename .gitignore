@@ -10,3 +10,7 @@ resume.tmp
 resume.xref
 *~
 *.pyc
+bin/
+include/
+lib/
+pip-selfcheck.json

@@ -13,8 +13,7 @@ For package requirements on Arch Linux, see ``requirements_arch.pp``.
 Python Requirements
 --------------------
 
-    Fabric==1.7.0
-    ghp-import==0.4.1
+See [requirements.txt](requirements.txt)
 
 Building
 --------

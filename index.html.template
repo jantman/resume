@@ -11,7 +11,7 @@
 
 <body>
 <div class="heading">Jason Antman</div>
-<div class="heading2">Automation / Tools Engineer</div>
+<div class="heading2">Automation / Tooling / DevOps Engineer</div>
 
 <div class="area">
 <p><span class="areatitle">My current resume is available in the following formats <em>(last updated {updated_date})</em>:</span></p>
@@ -20,7 +20,6 @@
 <li><a href="JasonAntman.pdf">Adobe PDF</a></li>
 <li><a href="JasonAntman.txt">Plain (ASCII) Text</a> <em>(most suitable for keyword scanners)</em></li>
 <li><a href="JasonAntman.tex">L<sup><small>A</small></sup>T<small>E</small>X Source</a></li>
-<!-- <li><a href="JasonAntman.doc">Word Document</a> <em>(the format I created my resume in does not allow easy conversion to Word, so the PDF is much better for viewing. But given the number of requests I got for this format, I&#39;m providing it, though it requires substantial manual effort to generate.)</em></li> -->
 </ul>
 </div> <!-- END DIV area -->
 
@@ -37,7 +36,8 @@
       <li><a href="https://github.com/jantman/misc-scripts">misc-scripts</a>, a random collection of small scripts.</li>
       <li><a href="https://github.com/jantman/biweeklybudget">biweeklybudget</a>, my personal finance application.</li>
     </ul>
-</li>
+  </li>
+<li><a href="https://resume.github.io/?jantman">https://resume.github.io/?jantman</a>, an automatically-generated summary of my GitHub activity.</li>
 <li><a href="http://www.repostatus.org/">RepoStatus.org</a>, a SCM- and hosting-agnostic method of indicating the development status of a code repository.</li>
 <li><a href="http://blog.jasonantman.com">My blog</a>, an esoteric collection of posts on my projects and other technical matters.</li>
 <li><a href="http://twitter.com/j_antman">Twitter (@j_antman)</a>.</li>

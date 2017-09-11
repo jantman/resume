@@ -22,18 +22,18 @@ Work Experience
         monitoring, extensive related tooling, automated deployment,
         documentation, DR procedures, and application integration.
     -   Backup and disaster recovery tooling and procedures for
-        highly-visible production Consul cluster.
+        widely-used production Consul cluster.
     -   Extensive development for our in-house self-service Jenkins
         infrastructure project; automated unit and acceptance tests,
         swarm node management, Vault integration, documentation,
-        relase/versioning/upgrade process.
+        release/versioning/upgrade process.
     -   Implemented self-service administrative tool for globally
         searching GitHub Enterprise.
     -   Docker Distribution (Registry v2) implementation, automation,
         upgrade and disaster recovery.
     -   Lead internal implementation of Capital One’s Cloud Custodian;
         extensive policy development, supporting tooling and monitoring.
-    -   Introduced and evangelized use of AWS Lambda for administrative
+    -   Expanded and evangelized use of AWS Lambda for administrative
         and internal tasks.
 
 -   ----------------------------------- ----------------------------
@@ -52,13 +52,12 @@ Work Experience
         saving measures to reduce cost of some applications by up to
         60%.
     -   Designed Puppet3 infrastructure using latest best practices;
-        planned and excuted migration of  300 existing nodes to new
-        infrastructure. This included monitoring and deployment/testing
-        (Jenkins) /promotion of code.
-    -   Took lead role in design/planning and buildout of multiple
-        production-like test environments; cut buildout time for
-        environments 2+ by approximately 75%. Automated development
-        environment creation to reduce buildout time by 60+%.
+        planned and executed migration of  300 existing nodes to new
+        infrastructure, including monitoring and deployment / testing /
+        promotion of code.
+    -   Took lead role in design/planning and build-out of multiple
+        production-like test environments. Cut build-out time for
+        subsequent environments by approximately 75%.
 
 -   ----------------------------------- --------------------------
       Cox Media Group - Digital (CMGd)    Atlanta, GA
@@ -66,12 +65,12 @@ Work Experience
                                           
       ----------------------------------- --------------------------
 
-    -   General and On-Call duties in a large and fast-paced
-        Django-based web environment.
+    -   General and On-Call duties in a large (10.5M views/day) and
+        fast-paced Django web environment.
     -   Designed and deployed multi-node Graphite cluster for metric
         storage and display; began alerting off of metrics.
-    -   Proof of concept for migration from Nagios/NagioSQL to Icinga
-        with Puppet-generated configuration.
+    -   Proof of concept for migration from Nagios with NagioSQL
+        configuration to Icinga with Puppet-generated configuration.
     -   Rewrote Puppet yum/rpm version comparison to fix numerous bugs;
         merged and released in puppet4.
 
@@ -110,7 +109,7 @@ Work Experience
     -   Development and proof-of-concept of University common area wired
         802.1x authentication, with captive portal and MAC auth
         fall-through.
-    -   Development and support of custom linux-based appliances /
+    -   Development and support of custom Linux-based appliances /
         embedded network devices.
 
 Education
@@ -152,11 +151,11 @@ Skills
     previous knowledge of Groovy, PHP, Perl, bash.
 
  Operating Systems: 
-    Twelve years experience in use and administration of Linux; 10 years
-    experience architecting and administering production Linux servers
-    and applications. Primarily CentOS/RedHat on servers and AWS, Arch
-    Linux personally. Experience with Vyatta Network OS/VyOS, Cisco
-    CatOS and IOS.
+    Twelve years experience in use and administration of Linux; ten
+    years experience architecting and administering production Linux
+    servers and applications. Primarily CentOS/RedHat on servers and
+    AWS, Arch Linux personally. Experience with Vyatta Network OS/VyOS,
+    Cisco CatOS and IOS.
 
  Software: 
     Many Amazon (AWS) offerings. Hashicorp Terraform, Vault, Consul,

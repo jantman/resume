@@ -8,11 +8,12 @@ resume.jasonantman.com
 
 Work Experience
 
--   ------------------------------------------------------- --------------------------
-      Cox Automotive / Manheim                                Atlanta, GA
-      Sr. Software Developer - Release Engineering Tooling    September 2015 - Present
+-   ------------------------------------------------------- --------------------------------
+      Cox Automotive / Manheim                                                     Atlanta, GA
+      Sr. Software Developer - Release Engineering Tooling      September 2015 - December 2017
+      Lead Software Engineer - Release Engineering                     December 2017 - Present
                                                               
-      ------------------------------------------------------- --------------------------
+      ------------------------------------------------------- --------------------------------
 
     -   Evangelized code review, unit testing and CI/CD for Release
         Engineering’s own tooling. Presented and evangelized RE products
@@ -37,8 +38,8 @@ Work Experience
         and internal tasks.
 
 -   ----------------------------------- ----------------------------
-      Cox Media Group - Digital (CMGd)    Atlanta, GA
-      Automation & Tools Engineer         June 2013 - September 2015
+      Cox Media Group - Digital (CMGd)                     Atlanta, GA
+      Automation & Tools Engineer           June 2013 - September 2015
                                           
       ----------------------------------- ----------------------------
 
@@ -60,8 +61,8 @@ Work Experience
         subsequent environments by approximately 75%.
 
 -   ----------------------------------- --------------------------
-      Cox Media Group - Digital (CMGd)    Atlanta, GA
-      Systems Engineer                    October 2012 - June 2013
+      Cox Media Group - Digital (CMGd)                   Atlanta, GA
+      Systems Engineer                      October 2012 - June 2013
                                           
       ----------------------------------- --------------------------
 
@@ -75,8 +76,8 @@ Work Experience
         merged and released in puppet4.
 
 -   ---------------------------- ------------------------------
-      TechTarget (NASDAQ: TTGT)    Alpharetta, GA
-      System Administrator         November 2011 - October 2012
+      TechTarget (NASDAQ: TTGT)                    Alpharetta, GA
+      System Administrator           November 2011 - October 2012
                                    
       ---------------------------- ------------------------------
 
@@ -89,8 +90,8 @@ Work Experience
         redesign.
 
 -   -------------------------------------------------- -------------------------------
-      Rutgers University - Central Systems & Services    Piscataway, NJ
-      System Administrator                               September 2007 - October 2011
+      Rutgers University - Central Systems & Services                     Piscataway, NJ
+      System Administrator                                 September 2007 - October 2011
                                                          
       -------------------------------------------------- -------------------------------
 
@@ -115,8 +116,8 @@ Work Experience
 Education
 
 -   --------------------------------------------- -----------------------------
-      Rutgers University                            Piscataway, NJ
-      BA, Information Technology and Informatics    January 2006 - October 2009
+      Rutgers University                                           Piscataway, NJ
+      BA, Information Technology and Informatics      January 2006 - October 2009
                                                     
       --------------------------------------------- -----------------------------
 
@@ -127,8 +128,8 @@ Education
 Volunteer Experience
 
 -   ------------------------------- -----------------------------
-      Midland Park Ambulance Corps    Midland Park, NJ
-      (501(c)(3) non-profit)          January 2006 - January 2012
+      Midland Park Ambulance Corps                 Midland Park, NJ
+      (501(c)(3) non-profit)            January 2006 - January 2012
                                       
       ------------------------------- -----------------------------
 
@@ -176,4 +177,3 @@ Open Source Projects and Contributions
  
     See resume.jasonantman.com for highlights or
     https://github.com/jantman.
-

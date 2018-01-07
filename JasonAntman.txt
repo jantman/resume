@@ -15,25 +15,26 @@ Work Experience
                                                               
       ------------------------------------------------------- --------------------------------
 
+    -   Lead Release Engineering in developing a relentless customer
+        focus; set goals that our documentation, design and user
+        experience be on-par with external (open source or proprietary)
+        software.
     -   Evangelized code review, unit testing and CI/CD for Release
         Engineering’s own tooling. Presented and evangelized RE products
         to management and software development teams.
-    -   Architecture, design, deployment and support lead for Hashicorp
-        Vault implementation including functional and security
-        monitoring, extensive related tooling, automated deployment,
+    -   Architecture, design, deployment and support for Hashicorp Vault
+        implementation including functional and security monitoring,
+        extensive related tooling, automated deployment pipeline,
         documentation, DR procedures, and application integration.
-    -   Backup and disaster recovery tooling and procedures for
-        widely-used production Consul cluster.
+    -   Developed backup and disaster recovery tooling and procedures
+        for widely-used production Consul cluster.
     -   Extensive development for our in-house self-service Jenkins
         infrastructure project; automated unit and acceptance tests,
         swarm node management, Vault integration, documentation,
         release/versioning/upgrade process.
-    -   Implemented self-service administrative tool for globally
-        searching GitHub Enterprise.
-    -   Docker Distribution (Registry v2) implementation, automation,
-        upgrade and disaster recovery.
     -   Lead internal implementation of Capital One’s Cloud Custodian;
-        extensive policy development, supporting tooling and monitoring.
+        extensive development of policies as well as deployment,
+        support, and monitoring tooling.
     -   Expanded and evangelized use of AWS Lambda for administrative
         and internal tasks.
 

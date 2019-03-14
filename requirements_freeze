@@ -5,7 +5,7 @@ cryptography==2.0.3
 Fabric3==1.13.1.post1
 ghp-import==0.5.5
 idna==2.6
-paramiko==2.2.1
+paramiko==2.4.2
 pyasn1==0.3.4
 pycparser==2.18
 PyNaCl==1.1.2

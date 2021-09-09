@@ -10,8 +10,6 @@ resume.tmp
 resume.xref
 *~
 *.pyc
-bin/
-include/
-lib/
 pip-selfcheck.json
 resume.out
+venv/

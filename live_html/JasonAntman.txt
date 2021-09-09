@@ -148,25 +148,25 @@ Volunteer Experience
 
 Skills
 
- Languages: 
+Languages:
     Current languages: Python (six years), Ruby (three years). Basic or
     previous knowledge of Groovy, PHP, Perl, bash.
 
- Operating Systems: 
+Operating Systems:
     Twelve years experience in use and administration of Linux; ten
     years experience architecting and administering production Linux
     servers and applications. Primarily CentOS/RedHat on servers and
     AWS, Arch Linux personally. Experience with Vyatta Network OS/VyOS,
     Cisco CatOS and IOS.
 
- Software: 
+Software:
     Many Amazon (AWS) offerings. Hashicorp Terraform, Vault, Consul,
     Packer, and related tools. Jenkins. Puppet. Graphite,
     Logstash/Elasticsearch, rsyslog, Nagios/Icinga. MySQL, PostgreSQL.
     Apache httpd, nginx. Git. Former experience with Solr, Postfix, ISC
     BIND9, ISC dhcpd, FreeRADIUS, Asterisk, OpenLDAP.
 
- Platforms: 
+Platforms:
     AWS. Previous experience with many datacenter technologies: VMWare,
     most Enterprise-grade server hardware, F5 Big-IP Load Balancers,
     network hardware, embedded devices, Meru and BlueSocket wireless
@@ -175,6 +175,5 @@ Skills
 
 Open Source Projects and Contributions
 
- 
     See resume.jasonantman.com for highlights or
     https://github.com/jantman.

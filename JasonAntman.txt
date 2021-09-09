@@ -22,21 +22,20 @@ Work Experience
     -   Evangelized code review, unit testing and CI/CD for Release
         Engineering’s own tooling. Presented and evangelized RE products
         to management and software development teams.
-    -   Architecture, design, deployment and support for Hashicorp Vault
-        implementation including functional and security monitoring,
-        extensive related tooling, automated deployment pipeline,
-        documentation, DR procedures, and application integration.
-    -   Developed backup and disaster recovery tooling and procedures
-        for widely-used production Consul cluster.
-    -   Extensive development for our in-house self-service Jenkins
-        infrastructure project; automated unit and acceptance tests,
-        swarm node management, Vault integration, documentation,
-        release/versioning/upgrade process.
-    -   Lead internal implementation of Capital One’s Cloud Custodian;
-        extensive development of policies as well as deployment,
-        support, and monitoring tooling.
-    -   Expanded and evangelized use of AWS Lambda for administrative
-        and internal tasks.
+    -   Lead architecture and development for our self-service Jenkins
+        solution, used by over 60 development teams; developed test,
+        release, and upgrade process.
+    -   Served on cross-organization external DNS resiliency task force;
+        paired to design and implement emergency DNS failover solution.
+    -   Designed and lead implementation of AWS account provisioning
+        process and tooling, reducing provisioning time for new accounts
+        from 2-4 weeks to approximately 2 days.
+    -   Served on Manheim security team; automated deployment of
+        security tooling to legacy cloud environments, developed PoC of
+        code and IaC security scanning in pipelines.
+    -   Planned, documented, partially automated, and supported GitHub
+        Enterprise SCM migration of approximately 3000 repositories and
+        decommission of old git server.
 
 -   ----------------------------------- ----------------------------
       Cox Media Group - Digital (CMGd)                     Atlanta, GA
@@ -148,25 +147,25 @@ Volunteer Experience
 
 Skills
 
- Languages: 
-    Current languages: Python (six years), Ruby (three years). Basic or
-    previous knowledge of Groovy, PHP, Perl, bash.
+Languages:
+    Current languages: primarily Python (ten years). Basic or previous
+    knowledge of Ruby, Groovy, PHP, Perl, bash, JavaScript.
 
- Operating Systems: 
-    Twelve years experience in use and administration of Linux; ten
-    years experience architecting and administering production Linux
-    servers and applications. Primarily CentOS/RedHat on servers and
-    AWS, Arch Linux personally. Experience with Vyatta Network OS/VyOS,
-    Cisco CatOS and IOS.
+Operating Systems:
+    Nineteen years experience in use and administration of Linux;
+    fifteen years experience architecting and administering production
+    Linux servers and applications. Primarily CentOS/RedHat/Amazon Linux
+    on servers and AWS, Arch Linux personally. Experience with Vyatta
+    Network OS/VyOS, Cisco CatOS and IOS.
 
- Software: 
-    Many Amazon (AWS) offerings. Hashicorp Terraform, Vault, Consul,
-    Packer, and related tools. Jenkins. Puppet. Graphite,
-    Logstash/Elasticsearch, rsyslog, Nagios/Icinga. MySQL, PostgreSQL.
-    Apache httpd, nginx. Git. Former experience with Solr, Postfix, ISC
-    BIND9, ISC dhcpd, FreeRADIUS, Asterisk, OpenLDAP.
+Software:
+    Many Amazon (AWS) offerings. Hashicorp Terraform, Packer, and
+    related tools. Jenkins. MySQL, PostgreSQL. Apache httpd, nginx. Git.
+    Former experience with Solr, Postfix, ISC BIND9, ISC dhcpd,
+    FreeRADIUS, Asterisk, OpenLDAP, Graphite, Logstash/Elasticsearch,
+    rsyslog.
 
- Platforms: 
+Platforms:
     AWS. Previous experience with many datacenter technologies: VMWare,
     most Enterprise-grade server hardware, F5 Big-IP Load Balancers,
     network hardware, embedded devices, Meru and BlueSocket wireless
@@ -175,6 +174,5 @@ Skills
 
 Open Source Projects and Contributions
 
- 
     See resume.jasonantman.com for highlights or
     https://github.com/jantman.
